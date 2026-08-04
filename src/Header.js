@@ -2,7 +2,7 @@ import Logo from "./images/Logo.png";
 function Header() {
   return (
     <header>
-<img src={Logo} alt="Little Lemon logo" />
+<img className="head" src={Logo} alt="Little Lemon logo" />
 
 
     </header>
