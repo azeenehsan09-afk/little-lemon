@@ -8,6 +8,10 @@ import { fetchAPI } from "./api";
 import ConfirmedBooking from "./ConfirmedBooking";
 import { submitAPI } from "./api";
 import { useNavigate } from "react-router-dom";
+import About from "./About";
+import Menu from "./Menu";
+import OrderOnline from "./OrderOnline";
+import Login from "./Login";
 
 export function initializeTimes() {
   const today = new Date();
@@ -61,7 +65,19 @@ function submitForm(formData) {
   path="/confirmed"
   element={<ConfirmedBooking />}
 />
+
+
+
+<Route path="/about" element={<About />} />
+
+<Route path="/Menu" element={<Menu />} />
+<Route path="/order" element={<OrderOnline />} />
+<Route path="/login" element={<Login />} />
       </Routes>
+
+
+
+
     </main>
   );
 }
