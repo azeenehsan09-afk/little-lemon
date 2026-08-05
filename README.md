@@ -30,19 +30,19 @@ https://azeenehsan09-afk.github.io/little-lemon/
 
 ## 🛒 Order Online
 
-![Order Online](orderonline.png)
+![Order Online](OrderNow.png)
 
 
 
 ## 🛍️ Shopping Cart
 
-![Cart](screenshots/cart.png)
+![Cart](screenshots/Cart.png)
 
 
 
 ## ✅ Booking Confirmation
 
-![Confirmation](screenshots/confirmation.png)
+![Confirmation](screenshots/Confirmation.png)
 
 
 
