@@ -1,20 +1,17 @@
 /* global fetchAPI */
 
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import Homepage from "./Homepage";
 import BookingPage from "./BookingPage";
 import { useReducer } from "react";
-import { fetchAPI } from "./api";
+
 import ConfirmedBooking from "./ConfirmedBooking";
-import { submitAPI } from "./api";
-import { useNavigate } from "react-router-dom";
+import { submitAPI, fetchAPI } from "./api";
 import About from "./About";
 import Menu from "./Menu";
 import OrderOnline from "./OrderOnline";
 import Login from "./Login";
 import Cart from "./Cart";
-import {  useState } from "react";
-
 
 export function initializeTimes() {
   const today = new Date();
