@@ -1,70 +1,195 @@
-# Getting Started with Create React App
+# 🍋 Little Lemon Restaurant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive restaurant website built with **React** as part of the **Meta Front-End Developer Professional Certificate** on Coursera.
 
-## Available Scripts
+The application allows users to explore the menu, reserve a table, browse featured dishes, order food online, manage a shopping cart, and view booking confirmation—all within a responsive user interface.
 
-In the project directory, you can run:
+🌐 **Live Demo:**  
+https://azeenehsan09-afk.github.io/little-lemon/
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📸 Project Preview
 
-### `npm test`
+## 🏠 Homepage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Homepage](Homepage.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🍽️ Menu
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Menu](Menu.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📅 Table Reservation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Reservation](Reservation.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 🛒 Order Online
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Order Online](orderonline.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🛍️ Shopping Cart
 
-### Analyzing the Bundle Size
+![Cart](screenshots/cart.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ✅ Booking Confirmation
 
-### Advanced Configuration
+![Confirmation](screenshots/confirmation.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# ✨ Features
 
-### `npm run build` fails to minify
+- 🍋 Responsive restaurant website
+- 📅 Reserve a table
+- 🍽️ Browse menu
+- 🛒 Online ordering
+- 🛍️ Shopping cart
+- ✅ Booking confirmation
+- ℹ️ About page
+- 🔐 Login page
+- 📱 Mobile-friendly design
+- ⚡ Client-side routing with React Router
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# 🛠️ Built With
+
+- React
+- React Router DOM
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Git
+- GitHub
+- GitHub Pages
+
+
+
+# 📂 Project Structure
+
+```text
+little-lemon/
+│
+├── public/
+├── src/
+│   ├── images/
+│   ├── App.js
+│   ├── main.js
+│   ├── Homepage.jsx
+│   ├── BookingPage.jsx
+│   ├── OrderOnline.jsx
+│   ├── Cart.jsx
+│   ├── Menu.jsx
+│   ├── About.jsx
+│   ├── Login.jsx
+│   ├── ConfirmedBooking.jsx
+│   ├── api.js
+│   └── ...
+│
+├── screenshots/
+├── package.json
+└── README.md
+```
+
+
+# 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/azeenehsan09-afk/little-lemon.git
+```
+
+Go to the project folder
+
+```bash
+cd little-lemon
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm start
+```
+
+Create a production build
+
+```bash
+npm run build
+```
+
+Deploy to GitHub Pages
+
+```bash
+npm run deploy
+```
+
+
+# 🎯 What I Learned
+
+During this project, I gained hands-on experience with:
+
+- React Components
+- JSX
+- React Router
+- useReducer Hook
+- State Management
+- Props
+- Form Validation
+- Responsive Web Design
+- Git & GitHub
+- GitHub Pages Deployment
+
+
+# 📚 Course
+
+This project was completed as part of the **Meta Front-End Developer Professional Certificate** offered on **Coursera**.
+
+It is based on the **Little Lemon Restaurant** case study used throughout the program to practice modern front-end development with React.
+
+
+# 🙏 Acknowledgements
+
+- **Meta** for creating the Front-End Developer Professional Certificate.
+- **Coursera** for hosting the learning program.
+- **Unsplash** for providing high-quality royalty-free images used throughout the project.
+
+---
+
+# 📄 Image Credits
+
+The images used in this project are sourced from **Unsplash**.
+
+If you reuse this project publicly, please consider crediting the original photographers according to the Unsplash License.
+
+https://unsplash.com
+
+
+# 👩‍💻 Author
+
+**Azeen Ehsan**
+
+Computer Science Student | Front-End Developer
+
+GitHub: https://github.com/azeenehsan09-afk
+
+
+
+# ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub!
