@@ -13,7 +13,7 @@ https://azeenehsan09-afk.github.io/little-lemon/
 
 ## 🏠 Homepage
 
-![Homepage](Homepage.png)
+![Homepage](Homepage(2).png)
 
 
 
