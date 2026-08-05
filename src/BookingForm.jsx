@@ -66,7 +66,7 @@ const isFormValid =
         min="1"
         max="10"
         value={guests}
-        onChange={(e) => setGuests(e.target.value)}
+       onChange={(e) => setGuests(Number(e.target.value))}
          required
       />
 
