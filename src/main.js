@@ -12,6 +12,9 @@ import About from "./About";
 import Menu from "./Menu";
 import OrderOnline from "./OrderOnline";
 import Login from "./Login";
+import Cart from "./Cart";
+import {  useState } from "react";
+
 
 export function initializeTimes() {
   const today = new Date();
@@ -28,7 +31,7 @@ export function updateTimes(state, action) {
 
 
 
-function Main() {
+function Main({ cart, setCart }) {
  const navigate = useNavigate();
   const [availableTimes, dispatch] = useReducer(
     updateTimes,
@@ -40,6 +43,29 @@ function submitForm(formData) {
     navigate("/confirmed");
   }
 }
+
+const addToCart = (food) => {
+  const existingItem = cart.find(item => item.name === food.name);
+
+  if (existingItem) {
+    setCart(
+      cart.map(item =>
+        item.name === food.name
+          ? { ...item, quantity: item.quantity + 1 }
+          : item
+      )
+    );
+  } else {
+    setCart([
+      ...cart,
+      {
+        ...food,
+        quantity: 1,
+      },
+    ]);
+  }
+};
+
 
   return (
     <main>
@@ -71,8 +97,22 @@ function submitForm(formData) {
 <Route path="/about" element={<About />} />
 
 <Route path="/Menu" element={<Menu />} />
-<Route path="/order" element={<OrderOnline />} />
+<Route
+  path="/order"
+  element={
+    <OrderOnline addToCart={addToCart} />
+  }
+/>
 <Route path="/login" element={<Login />} />
+<Route
+  path="/cart"
+  element={
+    <Cart
+      cart={cart}
+      setCart={setCart}
+    />
+  }
+/>
       </Routes>
 
 

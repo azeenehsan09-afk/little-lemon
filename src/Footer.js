@@ -18,25 +18,50 @@ function Footer() {
       </div>
 
       <div>
-        <h4>Contact</h4>
+         <h4>Contact</h4>
         <ul>
-          <li>Address</li>
-          <li>Phone Number</li>
-          <li>Email</li>
+          <li>📍 123 Mediterranean Street, Chicago, IL</li>
+          <li>📞 +1 (312) 555-1234</li>
+          <li>✉️ info@littlelemon.com</li>
         </ul>
       </div>
 
       <div>
-        <h4>Social Media Links</h4>
+        <h4>Follow Us</h4>
         <ul>
-          <li>Instagram</li>
-          <li>Facebook</li>
-          <li>Twitter</li>
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Facebook
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Twitter (X)
+            </a>
+          </li>
         </ul>
       </div>
 
     </footer>
   );
 }
-
 export default Footer;
