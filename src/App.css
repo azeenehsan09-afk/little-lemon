@@ -686,3 +686,10 @@ form button:active {
   background: #e0bb00;
   transform: translateY(-2px);
 }
+
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
