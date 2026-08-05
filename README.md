@@ -36,13 +36,13 @@ https://azeenehsan09-afk.github.io/little-lemon/
 
 ## 🛍️ Shopping Cart
 
-![Cart](screenshots/Cart.png)
+![Cart](Cart.png)
 
 
 
 ## ✅ Booking Confirmation
 
-![Confirmation](screenshots/Confirmation.png)
+![Confirmation](Confirmation.png)
 
 
 
