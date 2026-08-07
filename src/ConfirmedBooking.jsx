@@ -1,4 +1,7 @@
+
+import { useNavigate } from "react-router-dom";
 function ConfirmedBooking() {
+  const navigate = useNavigate();
   return (
     <main className="confirmation-page">
       <div className="confirmation-card">
@@ -12,7 +15,7 @@ function ConfirmedBooking() {
         </p>
 
         <button
-          onClick={() => (window.location.href = "/")}
+        onClick={() => navigate("/")}
           className="home-btn"
         >
           Back to Home
